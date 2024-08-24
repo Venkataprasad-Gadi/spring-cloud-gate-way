@@ -16,6 +16,7 @@ public class ServiceAController {
 
 	@GetMapping("/addNumbers")
 	public int addNumbers(@RequestParam int a, @RequestParam int b) {
+		
 		return a + b;
 	}
 
