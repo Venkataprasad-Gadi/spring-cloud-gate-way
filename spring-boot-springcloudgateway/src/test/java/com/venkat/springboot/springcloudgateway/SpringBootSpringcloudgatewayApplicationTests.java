@@ -1,10 +1,10 @@
-package com.venkat.springboot.miveosrvicea;
+package com.venkat.springboot.springcloudgateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootMiveosrviceAApplicationTests {
+class SpringBootSpringcloudgatewayApplicationTests {
 
 	@Test
 	void contextLoads() {

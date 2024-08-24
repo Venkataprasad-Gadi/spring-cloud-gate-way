@@ -1,10 +1,10 @@
-package com.venkat.springboot.cloudconfigclient;
+package com.venkat.springboot.microserviceb;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBootSpringcloudgatewayApplicationTests {
+class SpringBootMiveosrviceAApplicationTests {
 
 	@Test
 	void contextLoads() {
