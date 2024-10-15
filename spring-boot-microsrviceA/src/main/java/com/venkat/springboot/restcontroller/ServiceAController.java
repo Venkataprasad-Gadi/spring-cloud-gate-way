@@ -24,6 +24,7 @@ public class ServiceAController {
 	
 	@GetMapping("/hello2")
 	public String hello2() {
+		
 		return "Hello from Service A2";
 	}
 
