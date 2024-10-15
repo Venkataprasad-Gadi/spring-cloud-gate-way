@@ -1,5 +1,8 @@
 package com.venkat.springboot.restcontroller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -16,7 +19,6 @@ public class ServiceAController {
 
 	@GetMapping("/addNumbers")
 	public int addNumbers(@RequestParam int a, @RequestParam int b) {
-		
 		return a + b;
 	}
 	
@@ -25,4 +27,14 @@ public class ServiceAController {
 		return "Hello from Service A2";
 	}
 
+	@GetMapping("/getEmployeeList")
+	public List<String> getEmployeeList() {
+		List<String> list = new ArrayList<>();
+		list.add("Venkat");
+		list.add("Prasad");
+		list.add("Reddy");
+		return list;
+	}
+
+	
 }
