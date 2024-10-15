@@ -13,15 +13,16 @@ public class ServiceAController {
 	public String hello() {
 		return "Hello from Service A";
 	}
-	@GetMapping("/hello2")
-	public String hello2() {
-		return "Hello from Service A2";
-	}
 
 	@GetMapping("/addNumbers")
 	public int addNumbers(@RequestParam int a, @RequestParam int b) {
 		
 		return a + b;
+	}
+	
+	@GetMapping("/hello2")
+	public String hello2() {
+		return "Hello from Service A2";
 	}
 
 }
